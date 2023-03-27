@@ -16,7 +16,7 @@
 ![XMeme](https://user-images.githubusercontent.com/69622683/227966291-740933bf-db71-4177-aa6c-83be6d0b997e.png)
 
 
-                                                     XMeme Architecture
+                                                    XMeme Architecture
                                   
                                   
                                               
