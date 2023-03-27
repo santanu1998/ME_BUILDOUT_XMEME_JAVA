@@ -1,26 +1,64 @@
-This file can be used as a template for initializing and running spring projects.
 
-What's included: 
-1. Gradle file created from start.spring.io
-2. Plugins for Spotbugs, Checkstyle and Jacoco included
-3. Other dependencies like Mongo, MySql and redis.
-4. Dockerfile to start mongo server and run the spring boot application within.
+# XMeme
 
-Usage - 
+### XMeme is a simple backend web application where users can post and see memes.
 
-1. To build the repository - 
+### During the course of this project,
 
-From the repository root, 
+1. Built XMeme by writing necessary GET and POST APIs for fetching and posting the memes.
 
-1. run `./gradlew build test`run the build
-2. run `./gradlew bootjar` to create executable jar. The jar will be located inside build directories.
+2. Built the backend application from scratch using a spring starter template and stored/retrieved the data from MongoDB.
 
-To run inside docker container, use below commands
-
-To build docker image, use the command below - `docker build -t your_tag_name  .`
-
-To run the generated container, use this command - `docker run -p8080:8080 your_tag_name`. This will run the server on 8080 port.. You can change the ports as per your needs. 
+3. Tested the application functionality.
 
 
-License - 
-While this repository is licensed under APACHE 2.0 license, It is mandatory for users to share the readme.md and License file along with the changes they do in the contents.
+
+
+## Built XMeme backend completely from scratch
+
+### Scope of work
+Created a Backend Server using Spring template with the REST API handlers.
+Implemented support for POST API that can be used to post Memes.
+Implemented support for GET API that can be used to fetch the 100 newest memes posted, including these fields - name, caption and image URLs.
+Implemented support for GET API to fetch individual Memes using Meme Id.
+Used MongoDB to store the Meme related fields and extract them.
+Handled incorrect requests and used appropriate HTTP Response codes for error scenarios.
+Tested the functionality and wrote code with clear comments and documentation.
+Wrote modular code following MVCS layering architecture.
+### Skills used
+Core Java, Backend Server, Jackson, Spring Boot, Spring Data, REST API, MongoDB, Docker and Swagger
+
+
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
+
+MIT License
+
+Copyright (c) 2018 Samuel Gracious Etsiakoh
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+
+## 🔗 Links
+
+[![linkedin](https://img.shields.io/badge/https://www.linkedin.com/in/santanu-singha-43384a198/)]
+(https://www.linkedin.com/)
+
+
