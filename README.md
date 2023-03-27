@@ -65,9 +65,4 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 
-## 🔗 Links
-
-[![linkedin](https://img.shields.io/badge/https://www.linkedin.com/in/santanu-singha-43384a198/)]
-(https://www.linkedin.com/)
-
 
