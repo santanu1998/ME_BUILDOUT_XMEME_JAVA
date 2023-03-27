@@ -11,10 +11,17 @@
 
 3. Tested the application functionality.
 
+
+
 ![XMeme](https://user-images.githubusercontent.com/69622683/227966291-740933bf-db71-4177-aa6c-83be6d0b997e.png)
-XMeme Architecture
+                                              XMeme Architecture
+                                  
+                                  
+                                              
 ![XMeme_2](https://user-images.githubusercontent.com/69622683/227966470-45e51b03-19b8-4101-957f-c03e40325015.png)
-XMeme mock up
+                                                  XMeme mock up
+
+
 
 ## Built XMeme backend completely from scratch
 
